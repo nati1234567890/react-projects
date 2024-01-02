@@ -11,6 +11,9 @@ import QrCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabText from "./components/custom-tabs/tab-parent";
+import Modelarent from "./components/model-topup/model-parent";
+import ModelParent from "./components/model-topup/model-parent";
+import GithubProfile from "./components/github-profile-finder";
 function App() {
   return (
     <div className="App">
@@ -27,7 +30,8 @@ function App() {
       {/* <QrCodeGenerator/> */}
       {/* <LightDarkMode/> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabText />
+      {/* <TabText /> */}
+     <GithubProfile/>
     </div>
   );
 }
