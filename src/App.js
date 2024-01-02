@@ -14,6 +14,7 @@ import TabText from "./components/custom-tabs/tab-parent";
 import Modelarent from "./components/model-topup/model-parent";
 import ModelParent from "./components/model-topup/model-parent";
 import GithubProfile from "./components/github-profile-finder";
+import SearchAutoComplete from "./components/autoComplete";
 function App() {
   return (
     <div className="App">
@@ -31,7 +32,8 @@ function App() {
       {/* <LightDarkMode/> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabText /> */}
-     <GithubProfile/>
+      {/* <GithubProfile/> */}
+      <SearchAutoComplete />
     </div>
   );
 }
