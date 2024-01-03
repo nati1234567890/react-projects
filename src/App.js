@@ -15,6 +15,7 @@ import Modelarent from "./components/model-topup/model-parent";
 import ModelParent from "./components/model-topup/model-parent";
 import GithubProfile from "./components/github-profile-finder";
 import SearchAutoComplete from "./components/autoComplete";
+import TikTacToe from "./components/tik-tak-toe";
 function App() {
   return (
     <div className="App">
@@ -33,7 +34,8 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabText /> */}
       {/* <GithubProfile/> */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+      <TikTacToe />
     </div>
   );
 }
